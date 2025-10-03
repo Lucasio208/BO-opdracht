@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  background-image: url("Images/radioheadalbums.jpg");
+  padding: 125px;
+}
+.main{
+  background-color: transparent;
+  width: 1100px;
+  padding: 100px;
+}
+.article{
+  border: 4px inset rgba(160, 155, 155, 0.1);
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(154, 154, 156) 0%, rgb(150, 150, 156) 35%, rgb(234, 235, 235) 100%);
+  padding: 20px;
+}
+
+ul{
+  padding: 10px;
+  list-style: disc;
+}   
+.articleImg{
+  padding: 10px;
+  width: 95%;
+} 
+.dark{
+  background-color: #111;
+  color: #eee;
+}
+h1 {
+   text-align: center;
+    font-size: 5vw;
+    background-color: rgba(240, 248, 255, 0.525);
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    text-shadow: 11px 0px 30px rgb(153, 136, 136);
+
+}
+header{
+ height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+ @media screen ANd (max-width: 600px){
+    .flex-item{
+        flex-basis: 100%;
+    }
+  }
+
+
+  
+
+
+
